@@ -1,0 +1,1 @@
+-- INSERT INTO chat (foreignKey, entity, uri, created) VALUES (1, 'user', "https://www.burjkhalifa.ae/chat/home-bg.jpg", TIMESTAMP '2006-01-01 15:36:38');
