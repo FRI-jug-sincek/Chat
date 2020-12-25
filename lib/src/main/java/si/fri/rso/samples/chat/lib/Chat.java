@@ -5,12 +5,10 @@ import java.time.Instant;
 public class Chat {
 
     private Integer chatId;
-    private Integer foreignKey;
-    private String entity;
-    private String uri;
-    private Float nsfw;
-    private Integer faces;
-    private Instant created;
+    private Integer apartmentId;
+    private Integer userId;
+    private String message;
+    private Instant timestamp;
 
     public Integer getChatId() {
         return chatId;
@@ -20,51 +18,35 @@ public class Chat {
         this.chatId = chatId;
     }
 
-    public Integer getForeignKey() {
-        return foreignKey;
+    public Integer getApartmentId() {
+        return apartmentId;
     }
 
-    public void setForeignKey(Integer foreignKey) {
-        this.foreignKey = foreignKey;
+    public void setApartmentId(Integer apartmentId) {
+        this.apartmentId = apartmentId;
     }
 
-    public String getEntity() {
-        return entity;
+    public Integer getUserId() {
+        return userId;
     }
 
-    public void setEntity(String entity) {
-        this.entity = entity;
+    public void setUserId(Integer userId) {
+        this.userId = userId;
     }
 
-    public String getUri() {
-        return uri;
+    public String getMessage() {
+        return message;
     }
 
-    public void setUri(String uri) {
-        this.uri = uri;
+    public void setMessage(String message) {
+        this.message = message;
     }
 
-    public Float getNsfw() {
-        return nsfw;
+    public Instant getTimestamp() {
+        return timestamp;
     }
 
-    public void setNsfw(Float nsfw) {
-        this.nsfw = nsfw;
-    }
-
-    public Integer getFaces() {
-        return faces;
-    }
-
-    public void setFaces(Integer faces) {
-        this.faces = faces;
-    }
-
-    public Instant getCreated() {
-        return created;
-    }
-
-    public void setCreated(Instant created) {
-        this.created = created;
+    public void setTimestamp(Instant timestamp) {
+        this.timestamp = timestamp;
     }
 }

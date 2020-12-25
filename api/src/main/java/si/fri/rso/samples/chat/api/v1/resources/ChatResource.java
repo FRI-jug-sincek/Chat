@@ -72,12 +72,10 @@ public class ChatResource {
     @POST
     public Response createChat(Chat chat) {
 
-        if ((chat.getForeignKey() == null || chat.getEntity() == null || chat.getUri() == null)) {
+        if ((chat.getApartmentId() == null || chat.getUserId() == null || chat.getMessage() == null)) {
             return Response.status(Response.Status.BAD_REQUEST).build();
         }
 
-        chat.setFaces(0);
-        chat.setNsfw((float) 0);
         chat = chatBean.createChat(chat);
 
         return Response.status(Response.Status.OK).entity(chat).build();
@@ -86,8 +84,6 @@ public class ChatResource {
     @PUT
     @Path("{chatId}")
     public Response putChat(@PathParam("chatId") Integer chatId, Chat chat) {
-        chat.setFaces(0);
-        chat.setNsfw((float) 0);
         chat = chatBean.putChat(chatId, chat);
 
         if (chat == null) {

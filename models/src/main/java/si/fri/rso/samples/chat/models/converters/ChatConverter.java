@@ -9,29 +9,23 @@ public class ChatConverter {
 
         Chat dto = new Chat();
         dto.setChatId(entity.getId());
-        dto.setCreated(entity.getCreated());
-        dto.setForeignKey(entity.getForeignKey());
-        dto.setEntity(entity.getEntity());
-        dto.setUri(entity.getUri());
-        dto.setNsfw(entity.getNsfw());
-        dto.setFaces(entity.getFaces());
+        dto.setTimestamp(entity.getTimestamp());
+        dto.setApartmentId(entity.getApartmentId());
+        dto.setUserId(entity.getUserId());
+        dto.setMessage(entity.getMessage());
 
         return dto;
-
     }
 
     public static ChatEntity toEntity(Chat dto) {
 
         ChatEntity entity = new ChatEntity();
-        entity.setCreated(dto.getCreated());
-        entity.setForeignKey(dto.getForeignKey());
-        entity.setEntity(dto.getEntity());
-        entity.setUri(dto.getUri());
-        entity.setNsfw(dto.getNsfw());
-        entity.setFaces(dto.getFaces());
+        entity.setTimestamp(dto.getTimestamp());
+        entity.setApartmentId(dto.getApartmentId());
+        entity.setUserId(dto.getUserId());
+        entity.setMessage(dto.getMessage());
 
         return entity;
-
     }
 
 }

@@ -16,23 +16,17 @@ public class ChatEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @Column(name = "foreignKey")
-    private Integer foreignKey;
+    @Column(name = "apartmentId")
+    private Integer apartmentId;
 
-    @Column(name = "entity")
-    private String entity;
+    @Column(name = "userId")
+    private Integer userId;
 
-    @Column(name = "uri", length = 1024)
-    private String uri;
+    @Column(name = "message", length = 1024)
+    private String message;
 
-    @Column(name = "nsfw")
-    private Float nsfw;
-
-    @Column(name = "faces")
-    private Integer faces;
-
-    @Column(name = "created")
-    private Instant created;
+    @Column(name = "timestamp")
+    private Instant timestamp;
 
     public Integer getId() {
         return id;
@@ -42,51 +36,35 @@ public class ChatEntity {
         this.id = id;
     }
 
-    public Integer getForeignKey() {
-        return foreignKey;
+    public Integer getApartmentId() {
+        return apartmentId;
     }
 
-    public void setForeignKey(Integer foreignKey) {
-        this.foreignKey = foreignKey;
+    public void setApartmentId(Integer apartmentId) {
+        this.apartmentId = apartmentId;
     }
 
-    public String getEntity() {
-        return entity;
+    public Integer getUserId() {
+        return userId;
     }
 
-    public void setEntity(String entity) {
-        this.entity = entity;
+    public void setUserId(Integer userId) {
+        this.userId = userId;
     }
 
-    public String getUri() {
-        return uri;
+    public String getMessage() {
+        return message;
     }
 
-    public void setUri(String uri) {
-        this.uri = uri;
+    public void setMessage(String message) {
+        this.message = message;
     }
 
-    public Float getNsfw() {
-        return nsfw;
+    public Instant getTimestamp() {
+        return timestamp;
     }
 
-    public void setNsfw(Float nsfw) {
-        this.nsfw = nsfw;
-    }
-
-    public Integer getFaces() {
-        return faces;
-    }
-
-    public void setFaces(Integer faces) {
-        this.faces = faces;
-    }
-
-    public Instant getCreated() {
-        return created;
-    }
-
-    public void setCreated(Instant created) {
-        this.created = created;
+    public void setTimestamp(Instant timestamp) {
+        this.timestamp = timestamp;
     }
 }
