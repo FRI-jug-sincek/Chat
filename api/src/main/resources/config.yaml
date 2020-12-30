@@ -17,3 +17,8 @@ kumuluzee:
       data-source-health-check:
         type: liveness
         jndi-name: jdbc/ChatDS
+  cors-filter:
+    servlet:
+      allow-origin: "http://localhost:4200"
+      allow-subdomains: true
+      supported-methods: "GET, POST, DELETE, HEAD, OPTIONS, PUT"

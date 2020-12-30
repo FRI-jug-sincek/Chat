@@ -1,3 +1,4 @@
 si/fri/rso/samples/chat/api/v1/dtos/ApiError.class
+META-INF/services/javax.ws.rs.core.Application
 si/fri/rso/samples/chat/api/v1/ChatApplication.class
 si/fri/rso/samples/chat/api/v1/resources/ChatResource.class

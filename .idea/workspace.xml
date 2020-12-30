@@ -2,11 +2,179 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4058e8b1-c053-4958-8241-29da939de0a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/si/fri/rso/samples/chat/api/v1/resources/ChatResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/si/fri/rso/samples/chat/api/v1/resources/ChatResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/si/fri/rso/samples/chat/lib/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/si/fri/rso/samples/chat/lib/Chat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/chat/models/converters/ChatConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/chat/models/converters/ChatConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/chat/models/entities/ChatEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/chat/models/entities/ChatEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/src/main/resources/sql-scripts/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/resources/sql-scripts/init.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Chat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Chat.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/resources/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/chat-api-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/chat-api-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/chat-api-1.0.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/chat-api-1.0.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/classes/lib/chat-lib-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/classes/lib/chat-lib-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/classes/lib/chat-models-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/classes/lib/chat-models-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/classes/lib/chat-services-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/classes/lib/chat-services-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/META-INF/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/META-INF/kumuluzee/boot-loader.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/META-INF/maven/si.fri.rso.samples/chat-api/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/META-INF/maven/si.fri.rso.samples/chat-api/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/com/kumuluz/ee/loader/EeBootLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/com/kumuluz/ee/loader/EeClassLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/com/kumuluz/ee/loader/exception/EeClassLoaderException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/com/kumuluz/ee/loader/jar/FileInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/com/kumuluz/ee/loader/jar/JarEntryInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/com/kumuluz/ee/loader/jar/JarFileInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/config.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_HikariCP-3.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_activation-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_agroal-api-1.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_agroal-hikari-1.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_agroal-pool-1.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_animal-sniffer-annotations-1.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_aopalliance-repackaged-2.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_asm-7.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_asm-analysis-7.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_asm-commons-7.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_asm-tree-7.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_cdi-api-2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_chat-lib-1.0.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_chat-models-1.0.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_chat-services-1.0.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_checker-qual-3.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_commons-codec-1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_commons-lang3-3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_consul-client-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_converter-jackson-2.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_error_prone_annotations-2.0.18.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_gson-2.8.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_guava-22.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_hk2-api-2.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_hk2-locator-2.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_hk2-utils-2.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_http2-client-9.4.28.v20200408.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_http2-common-9.4.28.v20200408.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_http2-hpack-9.4.28.v20200408.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_http2-http-client-transport-9.4.28.v20200408.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_http2-server-9.4.28.v20200408.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_httpasyncclient-4.1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_httpclient-4.5.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_httpcore-4.4.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_httpcore-nio-4.4.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_httpmime-4.5.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_j2objc-annotations-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jackson-annotations-2.10.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jackson-core-2.10.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jackson-databind-2.10.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jackson-datatype-guava-2.10.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jackson-datatype-jdk8-2.10.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jackson-jaxrs-base-2.10.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jackson-jaxrs-json-provider-2.10.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jackson-module-jaxb-annotations-2.10.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jakarta.activation-api-1.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jakarta.annotation-api-1.3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jakarta.inject-2.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jakarta.json-1.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jakarta.json-api-1.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jakarta.json.bind-api-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jakarta.persistence-2.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jakarta.ws.rs-api-2.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jakarta.xml.bind-api-2.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jandex-2.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_javassist-3.24.1-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_javax.activation-api-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_javax.annotation-api-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_javax.el-api-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_javax.inject-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_javax.interceptor-api-1.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_javax.json-1.1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_javax.persistence-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_javax.servlet-api-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_javax.transaction-api-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jaxb-api-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jboss-annotations-api_1.3_spec-1.0.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jboss-classfilewriter-1.2.4.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jboss-logging-3.3.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jersey-cdi1x-2.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jersey-cdi1x-ban-custom-hk2-binding-2.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jersey-client-2.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jersey-common-2.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jersey-container-servlet-2.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jersey-container-servlet-core-2.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jersey-entity-filtering-2.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jersey-hk2-2.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jersey-jetty-connector-2.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jersey-media-jaxb-2.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jersey-media-json-binding-2.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jersey-media-json-jackson-2.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jersey-media-json-processing-2.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jersey-media-sse-2.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jersey-server-2.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jetty-alpn-client-9.4.28.v20200408.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jetty-alpn-java-client-9.4.28.v20200408.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jetty-alpn-java-server-9.4.28.v20200408.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jetty-alpn-server-9.4.28.v20200408.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jetty-annotations-9.4.28.v20200408.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jetty-client-9.4.28.v20200408.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jetty-http-9.4.28.v20200408.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jetty-io-9.4.28.v20200408.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jetty-jndi-9.4.28.v20200408.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jetty-plus-9.4.28.v20200408.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jetty-security-9.4.28.v20200408.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jetty-server-9.4.28.v20200408.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jetty-servlet-9.4.28.v20200408.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jetty-util-9.4.28.v20200408.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jetty-webapp-9.4.28.v20200408.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jetty-xml-9.4.28.v20200408.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_json-20190722.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jsonp-jaxrs-1.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_jsr305-1.3.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_kumuluzee-cdi-weld-3.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_kumuluzee-common-3.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_kumuluzee-config-common-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_kumuluzee-config-consul-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_kumuluzee-config-mp-1.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_kumuluzee-core-3.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_kumuluzee-jax-rs-jersey-3.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_kumuluzee-jpa-common-3.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_kumuluzee-jpa-eclipselink-3.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_kumuluzee-json-b-yasson-3.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_kumuluzee-json-p-jsonp-3.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_kumuluzee-rest-core-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_kumuluzee-servlet-jetty-3.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_microprofile-config-api-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_okhttp-3.12.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_okio-1.15.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_org.eclipse.persistence.antlr-2.7.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_org.eclipse.persistence.asm-2.7.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_org.eclipse.persistence.core-2.7.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_org.eclipse.persistence.jpa-2.7.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_org.eclipse.persistence.jpa.jpql-2.7.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_org.osgi.annotation.versioning-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_osgi-resource-locator-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_postgresql-42.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_retrofit-2.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_snakeyaml-1.26.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_unirest-java-3.11.04.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_validation-api-2.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_weld-api-3.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_weld-core-impl-3.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_weld-environment-common-3.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_weld-jsf-3.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_weld-probe-core-3.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_weld-servlet-core-3.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_weld-spi-3.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_weld-web-3.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/lib_yasson-1.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/si/fri/rso/samples/chat/api/v1/ChatApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/si/fri/rso/samples/chat/api/v1/dtos/ApiError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/tmp/EeClassLoader/si/fri/rso/samples/chat/api/v1/resources/ChatResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/target/chat-lib-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/target/chat-lib-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lib/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/target/chat-models-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/models/target/chat-models-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/models/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/target/chat-services-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/services/target/chat-services-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/services/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,17 +209,6 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Unnamed" type="JarApplication" nameIsGenerated="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/api/target/chat-api-1.0.0-SNAPSHOT.jar" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -74,6 +231,7 @@
       <workItem from="1608759595659" duration="505000" />
       <workItem from="1608760112861" duration="597000" />
       <workItem from="1608891194959" duration="10947000" />
+      <workItem from="1609356026734" duration="711000" />
     </task>
     <servers />
   </component>
