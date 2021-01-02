@@ -13,7 +13,7 @@ spec:
         app: chat
     spec:
       containers:
-        - image: frijugsincek/chat:2020-12-31-04-13-28
+        - image: frijugsincek/chat:2021-01-02-21-05-08
           name: chat
           env:
             - name: KUMULUZEE_DATASOURCES0_CONNECTIONURL
